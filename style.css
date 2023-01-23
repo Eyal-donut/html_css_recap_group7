@@ -1,4 +1,41 @@
-<style>
-  @import url('https://fonts.googleapis.com/css2?family=Outfit&family=Poppins&family=Roboto&display=swap');
-</style>
+
+.section1 {
+    height: 100vh;
+    background-color: #544d4d;
+    border: 7px solid black;
+}
+
+.head-text {
+    height: 10%;
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.head-text h1 {
+    height: 40%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 3%;
+    bottom: 0;
+    font-size: 4rem;
+    color:  #ffffff;
+}
+
+.head-text p {
+    position: absolute;
+    bottom: 0;
+    right: 3%;
+    font-size: 1.5rem;
+    color: #8c8282
+}
+
+.flex-images {
+    display: flex;
+    margin-top: 2rem;
+    height: 30vh;
+    border: 2px black solid;
+}
 
