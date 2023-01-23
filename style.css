@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Poppins";
+  font-weight: 400;
+  src: url(https://fonts.googleapis.com/css2?family=Outfit&family=Poppins&family=Roboto&display=swap) format("woff2");
+}
+
+.navbar {
+  font-family: "Poppins", sans-serif;
+  background: #010101;
+  height: 12px;
+  padding: 60px 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 4rem;
+}
+.left {
+  display: flex;
+  align-items: center;
+  color: white;
+  gap: 20px;
+  font-size: 4rem;
+}
+
+.left > div > strong {
+  color: white;
+}
+
+.right {
+  display: flex;
+  gap: 50px;
+}
+.right > div {
+  color: white;
+}
