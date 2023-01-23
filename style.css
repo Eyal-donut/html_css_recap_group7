@@ -1,70 +1,65 @@
-
-.section1 {
-    height: 100vh;
-    background-color: #544d4d;
-    border: 7px solid black;
+@font-face {
+  font-family: "Poppins";
+  font-weight: 400;
+  src: url(https://fonts.googleapis.com/css2?family=Outfit&family=Poppins&family=Roboto&display=swap) format("woff2");
 }
 
-.head-text {
-    height: 10%;
-    position: relative;
-    display: flex;
-    text-align: center;
-    justify-content: space-between;
+.navbar {
+  font-family: "Poppins", sans-serif;
+  background: #010101;
+  height: 12px;
+  padding: 60px 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 4rem;
+}
+.left {
+  display: flex;
+  align-items: center;
+  color: white;
+  gap: 20px;
+  font-size: 4rem;
 }
 
-.head-text h1 {
-    height: 40%;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    left: 3%;
-    bottom: 0;
-    font-size: 4rem;
-    color:  #ffffff;
+.left > div > strong {
+  color: white;
 }
 
-.head-text p {
-    position: absolute;
-    bottom: 0;
-    right: 3%;
-    font-size: 1.5rem;
-    color: #8c8282
+.right {
+  display: flex;
+  gap: 50px;
 }
-
-.flex-images {
-    display: flex;
-    margin-top: 2rem;
-    height: 30vh;
-    border: 2px black solid;
+.right > div {
+  color: white;
 }
 hero {
-    display: flex;
+  display: flex;
 }
 
 .flex-container {
-    display: flex;
+  display: flex;
 }
 
 h1 {
-    font-size: 200px;
-    line-height: 170px;
-    font-weight: 600;
-    color: #ffffff;
+  font-size: 200px;
+  line-height: 170px;
+  font-weight: 600;
+  color: #ffffff;
 }
 
 hero p {
-    font-size: 12px;
-    font-weight: 400;
-    color: #ffffff;
-    line-height: 18px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 18px;
 }
 
 hero button {
-    background: #25AB75;
-    color: #ffffff;
-    border-radius: 20%;
-    font-size: 10px;
-    line-height: 18px;
-    font-weight: 600;
+  background: #25ab75;
+  color: #ffffff;
+  border-radius: 20%;
+  font-size: 10px;
+  line-height: 18px;
+  font-weight: 600;
 }

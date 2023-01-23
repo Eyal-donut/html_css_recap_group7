@@ -1,30 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit&family=Poppins&family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit&family=Poppins&family=Roboto&display=swap");
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 62.5%;
 }
 
-html, body *{
-    font-family: 'Poppins', sans-serif;
-    text-align: left;
-    color: white;
-    background: black;
-    font-size: 62.5%;
-
+html,
+body * {
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  color: black;
 }
 
 a {
-    text-decoration: none;
-    cursor: pointer;
+  text-decoration: none;
+  cursor: pointer;
 }
-ul {    list-style: none;
+ul {
+  list-style: none;
 }
-ol {    list-style: none;
+ol {
+  list-style: none;
 }
 
 button {
-    text-decoration: none;
-    cursor: pointer;
+  text-decoration: none;
+  cursor: pointer;
 }
