@@ -33,3 +33,33 @@
 .right > div {
   color: white;
 }
+hero {
+  display: flex;
+}
+
+.flex-container {
+  display: flex;
+}
+
+h1 {
+  font-size: 200px;
+  line-height: 170px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+hero p {
+  font-size: 12px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 18px;
+}
+
+hero button {
+  background: #25ab75;
+  color: #ffffff;
+  border-radius: 20%;
+  font-size: 10px;
+  line-height: 18px;
+  font-weight: 600;
+}
